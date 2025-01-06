@@ -7,10 +7,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about' },
-      {
-        text: 'Portfolios',
-        link: '/e-commerce',
-      },
+      { text: 'Portfolios', link: '/e-commerce' },
+      { text: 'Contact', link: '/contact' },
     ],
 
     sidebar: {
