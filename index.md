@@ -20,11 +20,7 @@ features:
     details: Python, JavaScript, HTML, CSS, Linux
   - title: Education
     details: Professional Certificate @ Gamuda AI Academy
-    # details: Bachelor of Mechanical Precision Engineering
   - title: Interests
     details: AI/ML, Data Analytics, Cloud Computing
-
-prev: false
-next: false
 ---
 
