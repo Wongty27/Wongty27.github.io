@@ -7,16 +7,17 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about' },
-      { text: 'Portfolios', link: '/e-commerce' },
+      { text: 'Projects', link: '/e-commerce' },
       { text: 'Contact', link: '/contact' },
     ],
 
-    sidebar: {
-      '/portfolios/': [
+    sidebar: [
         {
-          text: 'Portfolios',
+          text: 'Projects',
+          // collapsed: true,
           items: [
-            { text: 'Custom PC Shopping Website', link: '/e-commerce'},
+            { text: 'Custom PC Shopping Website', link: '/e-commerce' },
+            { text: 'Job Connect', link: '/job-connect' },
           ] 
         }
       ]
@@ -30,15 +31,8 @@ export default defineConfig({
     ],
 
     docFooter: {
-      prev: false,
-      next: false
+      // prev: false,
+      // next: false
     }
   },
-
-
-
-  // rewrites: {
-  //   'src/e-commerce.md': '/e-commerce.md',
-  //   'src/about.md': '/about.md'
-  // }
-})
+)
