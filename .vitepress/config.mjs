@@ -12,27 +12,22 @@ export default defineConfig({
     ],
 
     sidebar: [
-        {
-          text: 'Projects',
-          // collapsed: true,
-          items: [
-            { text: 'Custom PC Shopping Website', link: '/e-commerce' },
-            { text: 'Job Connect', link: '/job-connect' },
-          ] 
-        }
-      ]
-    },
+      {
+        text: 'Projects',
+        // collapsed: true,
+        items: [
+          { text: 'Custom PC Shopping Website', link: '/e-commerce' },
+          { text: 'Job Connect', link: '/job-connect' },
+        ] 
+      }
+    ],
 
-    // You can add any icon from simple-icons (https://simpleicons.org/):
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Wongty27' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/toong-yang-wong-618137185/' },
       { icon: 'files', link: '/WongToongYang_resume.pdf'}
-    ],
-
-    docFooter: {
-      // prev: false,
-      // next: false
-    }
+    ]
   },
-)
+    // You can add any icon from simple-icons (https://simpleicons.org/):
+    
+})
