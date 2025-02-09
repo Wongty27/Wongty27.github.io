@@ -29,5 +29,15 @@ export default defineConfig({
     ]
   },
     // You can add any icon from simple-icons (https://simpleicons.org/):
-    
+  head: [
+    [
+      "scripts",
+      {
+        async: true,
+        defer: true,
+        "data-website-id": "c7c01fb4-cf3b-4d47-890d-6831ff7f74ca",
+        "src": "https://cloud.umami.is/script.js"
+      }
+    ]
+  ]
 })
