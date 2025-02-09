@@ -6,7 +6,7 @@ I'm a self-taught programmer who skills in full stack web development, data anal
 
 ## Skills
 - **Programming Languages**: JavaScript, TypeScript, Python
-- **Frontend**: Vue.js, React, HTML, CSS
+- **Frontend**: Vue.js, HTML, CSS
 - **Backend**: Node.js, FastAPI
 - **Database**: MySQL, PostgreSQL, MongoDB
 - **Data Analytics**: DuckDB, Pandas, NumPy, PySpark, Airflow 
