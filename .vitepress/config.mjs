@@ -31,7 +31,7 @@ export default defineConfig({
     // You can add any icon from simple-icons (https://simpleicons.org/):
   head: [
     [
-      "scripts",
+      "script",
       {
         async: true,
         defer: true,
